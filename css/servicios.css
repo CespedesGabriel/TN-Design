@@ -1,0 +1,50 @@
+body{
+    position: relative;
+    background-color: rgb(254, 252, 252);
+    min-height: 100vh;
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+header{
+    background-color: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+section{
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#logo{
+    position: absolute;
+    top: -15px;
+    left:30px;
+    width: 150px;
+    height: 150px;
+    color:black;
+}
+.barra{
+    
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    font-size: larger;
+
+}
+footer{
+    background-color:rgb(16, 17, 16) ;
+    font-size: larger;
+    text-align: center;
+    position:relative;
+    width: 100%;
+    bottom: 0%;
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    color: aliceblue;
+}
